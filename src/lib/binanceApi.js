@@ -1,6 +1,13 @@
 const BASE_URL = 'https://api.binance.com/api/v3'
 
-export const SYMBOLS = ['BTCUSDT', 'ETHUSDT']
+export const SYMBOLS = [
+  'BTCUSDT',
+  'ETHUSDT',
+  'BNBUSDT',
+  'SOLUSDT',
+  'XRPUSDT',
+  'DOGEUSDT',
+]
 export const TIMEFRAMES = [
   { label: '1m', value: '1m' },
   { label: '5m', value: '5m' },
